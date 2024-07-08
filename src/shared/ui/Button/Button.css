@@ -1,0 +1,5 @@
+@layer components {
+  .button-clear {
+    @apply bg-transparent hover:bg-bg rounded-full focus:outline-none focus:ring p-3 cursor-pointer;
+  }
+}
