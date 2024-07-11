@@ -1,4 +1,4 @@
-import { PaintCanvas } from "@/features/PaintCanvas";
+import { PaintCanvas } from "@/entities/PaintCanvas";
 import { PaintSettingsBar } from "@/features/PaintSettingsBar";
 import { PaintToolbar } from "@/features/PaintToolbar";
 import { Page } from "@/widgets/Page";
@@ -9,7 +9,6 @@ export const PaintOnlinePage = ({}: PaintOnlinePageProps) => {
   return (
     <Page>
       <PaintToolbar />
-      <PaintSettingsBar />
       <PaintCanvas />
     </Page>
   );

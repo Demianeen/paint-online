@@ -1,1 +1,1 @@
-export { PaintSettingsBar } from "./ui/PaintSettingsBar/PaintSettingsBar";
+export { PaintSettingsBar } from "../PaintToolbar/ui/PaintToolbarSettings/PaintToolbarSettings";
